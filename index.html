@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="header">Weather Dashboard</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h3>Search for a City:</h3>
+                <div class="input-group md-form form-sm form-2 pl-0">
+                    <input class="form-control my-0 py-1 lime-border" id="cityInput" type="text" placeholder="Search" aria-label="Search">
+                    <div class="input-group-append">
+                        <button type="submit" id="search-btn" class="btn btn-info">
+                            <span class="glyphicon glyphicon-search"></span> Search
+                        </button>
+                    </div>
+                </div> 
+                <ul class="list-group" id="cityList">
+                    <!-- <li class="list-group-item" id="Toronto">Toronto</li> -->
+                </ul>
+            </div>
+            <div class="col-8">
+                <div class="container containerBordered">
+                    <h2 id="cityName"></h2><hr>
+                    <div id="temperature"></div><br>
+                    <div id="humidity"></div><br>
+                    <div id="windSpeed"></div><br> 
+                </div>
+                    <br>
+                <div class="container">
+                    <h3>5 Day Forecast</h3>
+                    <div id="dayList" class="row">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="script.js" type="text/javascript">
+        
+    </script>
+
+</body>
+</html>

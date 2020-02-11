@@ -1,0 +1,41 @@
+#header {
+    background-color: steelblue;
+    padding: 1%;
+    text-align: center;
+    font-size: x-large;
+    color: whitesmoke;
+}
+
+.input-group.md-form.form-sm.form-2 input.lime-border {
+    border: 1px solid #cddc39;
+    width: 30%;
+    }
+
+.col-4 {
+    background-color: seashell;
+}
+
+.list-group {
+    margin: 10%;
+}
+.containerBordered {
+    border: solid black thin;
+    border-radius: 5px;
+}
+.weatherDay {
+    margin: 1%;
+    color: whitesmoke;
+    background-color: steelblue;
+    border: black thin solid;
+    border-radius: 5px;
+    font-size: smaller;
+    width: 100px;
+}
+#dayList {
+    width: 100%;
+    margin: 5%;
+    
+}
+#innerWeatherDay {
+    padding: 5px;
+}
