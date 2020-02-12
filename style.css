@@ -39,3 +39,12 @@
 #innerWeatherDay {
     padding: 5px;
 }
+#weatherIcon {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin: auto;
+    /* border: black solid thin; */
+    border-radius: 6px;
+    background-color: seashell;
+}
