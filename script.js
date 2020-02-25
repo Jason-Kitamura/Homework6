@@ -77,14 +77,14 @@ document.getElementById('search-btn').addEventListener('click', createCity)
 
         function retreiveOneDay (){
             $.ajax({
-                    url: `http://api.openweathermap.org/data/2.5/weather?q=${newCity}&APPID=748ff1a0b719ff81bb15bda076c9541d`,
+                    url: `https://api.openweathermap.org/data/2.5/weather?q=${newCity}&APPID=748ff1a0b719ff81bb15bda076c9541d`,
                     method: "GET"
                 }).then(displayCityWeather);
         } 
 
         function retreiveFiveDay (){
             $.ajax({
-                    url: `http://api.openweathermap.org/data/2.5/forecast?q=${newCity}&appid=748ff1a0b719ff81bb15bda076c9541d`,
+                    url: `https://api.openweathermap.org/data/2.5/forecast?q=${newCity}&appid=748ff1a0b719ff81bb15bda076c9541d`,
                     method: "GET"
                 }).then(displayFiveDayWeather);
         } 
